@@ -16,7 +16,7 @@ def load_pipeline():
 pipeline, meta = load_pipeline()
 feature_cols = meta['feature_cols']
 
-st.title("Boutique Winery — Wine Quality Predictor")
+st.title("🍷Boutique Winery — Wine Quality Predictor🍇")
 
 with st.form("input_form"):
     st.subheader("Enter Wine Sample Features")
